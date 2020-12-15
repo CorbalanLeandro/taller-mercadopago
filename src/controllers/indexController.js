@@ -18,7 +18,6 @@ module.exports = {
         return res.render('detail', { ...req.query });
     },
     mercadopagoRedirect: (req, res) => {
-        console.log(req.query);
         if (req.query.status.includes('success')) {
             return res.render('success')
         }
