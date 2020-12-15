@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Include Head -->
+  <%- include('partials/head', { title: 'Confirmación' }) %>
+<body>
+	<!-- Header -->
+	<%- include('partials/headerNavbar') %>
+  <!-- /Header -->
+  <main class="confirm-container">
+    <div class="mercadopago-button-container">
+      <a href='<%= global.init_point %> ' class="mercadopago-button" target="_blank">Confirmar compra.</a>
+    </div>
+  </main>
+  <!-- footer -->
+	<%- include('partials/footer') %>
+	<!-- /footer -->
+</body>
+</html>

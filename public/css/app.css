@@ -462,6 +462,16 @@ textarea.form-input {
   font-size: 20px;
 }
 
+/*====== Confirm page ======*/
+.confirm-container {
+  display: flex;
+  justify-content: center;
+  min-height: 80vh;
+  align-items: center;
+}
+.confirm-container .mercadopago-button-container .mercadopago-button{
+  font-size: 3em;
+}
 
 
 /*====== Media-Queries ======*/
